@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Tasks</h2>
+        <div class="task-form">
+            <input id="title" placeholder="Title">
+            <input id="description" placeholder="Description">
+            <button id="addBtn">Add Task</button>
+            <button id="logoutBtn" style="background-color: #f44336;">Logout</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+    <script src="tasks.js"></script>
+    <script>
+        document.getElementById('addBtn').addEventListener('click', handleTaskSubmit);
+        document.getElementById('logoutBtn').addEventListener('click', () => {
+            localStorage.removeItem('token');
+            location.href = 'login.html';
+        });
+    </script>
+</body>
+
+</html>

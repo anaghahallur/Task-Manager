@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Register</h2>
+        <input id="email" placeholder="Email" type="email">
+        <input id="password" type="password" placeholder="Password">
+        <button id="signupBtn">Signup</button>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+    </div>
+    <script src="auth.js"></script>
+    <script>
+        document.getElementById('signupBtn').addEventListener('click', signup);
+    </script>
+</body>
+
+</html>
