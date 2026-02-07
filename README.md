@@ -6,7 +6,7 @@ A robust, responsive Task Management Web Application built with the MERN stack (
 
 The application is deployed and publicly accessible at:
 
-🔗 **Live Site:** task-manager-agoqg6hdm-anaghas-projects-4cf33fe7.vercel.app 
+🔗 **Live Site:** task-manager-m6mqp8cye-anaghas-projects-4cf33fe7.vercel.app
 🔗 **Backend API:** [https://your-deployed-backend-link ](https://task-manager-m1wj.onrender.com) 
 
 - Note: The deployed backend is hosted separately and connected to a cloud MongoDB database.  
