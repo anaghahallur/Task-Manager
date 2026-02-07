@@ -5,9 +5,9 @@ require("dotenv").config();
 
 const app = express();
 
-/* ✅ SIMPLE & CORRECT CORS SETUP */
+/* ✅ FLEXIBLE CORS SETUP */
 app.use(cors({
-  origin: "http://127.0.0.1:5500",
+  origin: ["http://127.0.0.1:5500", "https://task-manager-nj4w20ox7-anaghas-projects-4cf33fe7.vercel.app"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"]
 }));
