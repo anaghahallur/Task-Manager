@@ -1,13 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta http-equiv="refresh" content="0; url=login.html">
-    <title>Redirecting...</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <p>Redirecting to <a href="login.html">login.html</a>...</p>
+    <div class="container" style="text-align: center;">
+        <h2>Task Manager</h2>
+        <p style="margin-bottom: 2rem; color: var(--text-muted);">Organize your life, one task at a time.</p>
+
+        <div style="display: flex; flex-direction: column; gap: 1rem;">
+            <button onclick="location.href='login.html'">Login</button>
+            <button onclick="location.href='register.html'"
+                style="background-color: transparent; color: var(--primary); border: 2px solid var(--primary);">Sign
+                Up</button>
+        </div>
+    </div>
 </body>
 
 </html>

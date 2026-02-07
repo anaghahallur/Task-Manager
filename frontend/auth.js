@@ -12,11 +12,12 @@ async function signup() {
     });
 
     if (res.ok) {
-      alert("Registered successfully");
-      location.href = "login.html";
+      const data = await res.json();
+      localStorage.setItem("token", data.token);
+      location.href = "dashboard.html";
     } else {
       const data = await res.json();
-      alert(data.msg || "Registration failed");
+      alert(data.msg || data.message || "Registration failed");
     }
   } catch (err) {
     console.error(err);
