@@ -5,9 +5,9 @@ require("dotenv").config();
 
 const app = express();
 
-/* ✅ PRODUCTION-READY CORS SETUP */
+
 app.use(cors({
-  origin: "*", // Allow all origins for dynamic deployment URLs
+  origin: "*", 
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"]
 }));
