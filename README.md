@@ -2,6 +2,15 @@
 
 A robust, responsive Task Management Web Application built with the MERN stack (MongoDB, Express, React/Vanilla JS, Node.js). This application allows users to create, view, update, and delete tasks with a modern and premium user interface.
 
+## Live Demo
+
+The application is deployed and publicly accessible at:
+
+🔗 **Live Site:** task-manager-agoqg6hdm-anaghas-projects-4cf33fe7.vercel.app 
+🔗 **Backend API:** [https://your-deployed-backend-link ](https://task-manager-m1wj.onrender.com) 
+
+- Note: The deployed backend is hosted separately and connected to a cloud MongoDB database.  
+- Please allow a few seconds for the server to wake up if hosted on a free tier.
 ## Features
 
 -   **User Authentication**: Secure Sign-up and Login functionality using JWT.
