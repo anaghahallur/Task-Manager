@@ -1,4 +1,4 @@
-const API = "http://localhost:5001/api";
+const API = "https://task-manager-m1wj.onrender.com/api";
 const token = localStorage.getItem("token");
 
 if (!token) {
